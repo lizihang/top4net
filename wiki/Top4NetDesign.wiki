@@ -1,2 +1,4 @@
 #labels Phase-Design
-To be provided
+设计原则：
+
+设计类图：
