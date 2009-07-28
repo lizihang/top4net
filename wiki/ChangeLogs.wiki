@@ -11,4 +11,4 @@
 ==Top4Net v0.20==
  # 修正签名错误
  # 添加产品类相关的对象和解释器
- # 添加[[http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get]接口支持
+ # 添加[http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get]接口支持
