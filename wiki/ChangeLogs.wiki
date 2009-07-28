@@ -1,4 +1,4 @@
-#labels Featured
+#labels ChangeLogs
 ==Top4Net v0.1==
  # Top4Net基础框架
  # 添加[http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get]接口支持
