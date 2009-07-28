@@ -1,4 +1,0 @@
-#labels Phase-Design
-设计原则：
-
-设计类图：
