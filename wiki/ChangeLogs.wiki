@@ -1,4 +1,4 @@
-#labels ChangeLogs
+#labels Changes
 ==Top4Net v0.1==
  # Top4Net基础框架
  # 添加[http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get]接口支持
@@ -11,4 +11,8 @@
 ==Top4Net v0.20==
  # 修正签名错误
  # 添加产品类相关的对象和解释器
+ # 添加[http://wiki.open.taobao.com/index.php/taobao.products.search taobao.products.search]接口支持
+
+==Top4Net v0.22==
+ # 添加[http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get]接口支持
  # 添加[http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get]接口支持
