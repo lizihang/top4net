@@ -16,3 +16,6 @@
 ==Top4Net v0.22==
  # 添加[http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get]接口支持
  # 添加[http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get]接口支持
+
+==Top4Net v0.23==
+ # 解决中文参数非法签名问题
