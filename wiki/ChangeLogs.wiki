@@ -1,4 +1,4 @@
-#labels Changes
+#labels Chage_Log
 ==Top4Net v0.1==
  # Top4Net基础框架
  # 添加[http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get]接口支持
@@ -22,4 +22,4 @@
 
 ==Top4Net v0.25==
  # 支持带文件上传的API请求
- # 添加添加[http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add]接口支持
+ # 添加[http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add]接口支持
