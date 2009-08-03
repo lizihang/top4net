@@ -19,3 +19,7 @@
 
 ==Top4Net v0.23==
  # 解决中文参数非法签名问题
+
+==Top4Net v0.25==
+ # 支持带文件上传的API请求
+ # 添加添加[http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add]接口支持
