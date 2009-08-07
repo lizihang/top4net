@@ -4,7 +4,7 @@ Top4Net SDK中使用的编写词一览：
 || iid || Item Id ||
 || oid || Order Id ||
 || pid || Property/Product/Picture Id ||
-|| rid || Refund Id ||  ||
+|| rid || Refund Id ||
 || sid || Shop/Shipping Id ||
 || tid || Trade Id ||
 || uid || User Id ||
