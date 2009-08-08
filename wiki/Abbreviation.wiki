@@ -1,14 +1,1 @@
 #labels Abbreviation
-Top4Net SDK中使用的编写词一览：
-|| *缩写* || *全称* ||
-|| cid || Category Id ||
-|| iid || Item Id ||
-|| oid || Order Id ||
-|| pid || Property Id ||
-|| rid || Refund Id ||
-|| sid || Shop/Shipping Id ||
-|| tid || Trade Id ||
-|| uid || User Id ||
-|| vid || Value Id ||
-
-注：严格禁止代码中使用pid作为Product/Picture Id，但阿里妈妈的PID例外。
