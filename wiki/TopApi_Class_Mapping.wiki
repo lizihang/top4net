@@ -1,3 +1,4 @@
+#labels API名称,类名称
 TOP公开的API名字与Top4Net的类名映射：
 || *TopApiName* || *ClassName* ||
 || [http://wiki.open.taobao.com/index.php/taobao.shop.get taobao.shop.get] || ShopGetRequest ||
