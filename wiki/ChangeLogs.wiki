@@ -23,3 +23,14 @@
 ==Top4Net v0.25==
  # 支持带文件上传的API请求
  # 添加[http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add]接口支持
+
+==Top4Net v0.50==
+ # 重构Top4Net的请求体系
+ # 重构Top4Net的解释器体系
+ # 为入口类添加带会话的请求
+ # 为入口类添加使用解释方法委托的重载方法
+ # 添加所有TOP已经公开的API请求类
+ # 添加所有TOP已经公开的数据结构
+ # 支持所有商品属性相关的API
+ # 支持所有淘宝客相关的API
+ # 支持部分商品查询搜索相关的API
