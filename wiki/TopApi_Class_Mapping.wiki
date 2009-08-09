@@ -13,7 +13,7 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.item.update taobao.item.update] || ItemUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||ItemCatListJsonParser<br>ItemCatListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update.showcase taobao.item.update.showcase] || ItemRecommendAddRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.get taobao.items.get] || ItemsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.get taobao.items.get] || ItemsGetRequest || ItemListJsonParser<br>ItemListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.fullskus.get taobao.fullskus.get] || SkusCustomGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itempropvalues.get taobao.itempropvalues.get] || ItemPropValuesGetRequest ||PropValueListJsonParser<br>PropValueListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.shippings.send.fullinfo.get taobao.shippings.send.fullinfo.get] || LogisticsOrderDetailGetRequest ||  ||
@@ -49,7 +49,7 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.trade.memo.update taobao.trade.memo.update] || TradeMemoUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemprops.get.v2 taobao.itemprops.get.v2] || ItemPropsGetRequest ||ItemPropListJsonParser<br>ItemPropListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.trades.get taobao.trades.get] || TradesGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.get taobao.item.get] || ItemGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.get taobao.item.get] || ItemGetRequest || ItemJsonParser<br>ItemXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.product.img.delete taobao.product.img.delete] || ProductImgDeleteRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.picture.category.get taobao.picture.category.get] || PictureCategoryGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.picture.add taobao.sns.picture.add] || SnsPictureAddRequest ||  ||
