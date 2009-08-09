@@ -1,4 +1,4 @@
-#labels API名称,类名称
+#labels API名称,请求类,解释类
 TOP公开的API名字与Top4Net的类名映射：
 || *TopApiName* || *RequestClassName* || *ParserClassName* ||
 || [http://wiki.open.taobao.com/index.php/taobao.shop.get taobao.shop.get] || ShopGetRequest ||  ||
@@ -6,16 +6,16 @@ TOP公开的API名字与Top4Net的类名映射：
 || [http://wiki.open.taobao.com/index.php/taobao.shopcats.list.get taobao.shopcats.list.get] || BuyerShopCatsGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.pictures.get taobao.sns.pictures.get] || SnsPicturesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.postage.get taobao.postage.get] || PostageGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.list.get taobao.itemprops.list.get] || BuyerItemPropsGetRequest ||  || ItemPropListJsonParser/ItemPropListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.list.get taobao.itemprops.list.get] || BuyerItemPropsGetRequest ||ItemPropListJsonParser/ItemPropListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.friends.get taobao.sns.friends.get] || SnsFriendsGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.delivery.send taobao.delivery.send] || LogisticsOrderAddRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.items.search taobao.items.search] || ItemsSearchRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update taobao.item.update] || ItemUpdateRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||  || ItemCatListJsonParser/ItemCatListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||ItemCatListJsonParser/ItemCatListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update.showcase taobao.item.update.showcase] || ItemRecommendAddRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.items.get taobao.items.get] || ItemsGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.fullskus.get taobao.fullskus.get] || SkusCustomGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itempropvalues.get taobao.itempropvalues.get] || ItemPropValuesGetRequest ||  || PropValueListJsonParser/PropValueListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itempropvalues.get taobao.itempropvalues.get] || ItemPropValuesGetRequest ||PropValueListJsonParser/PropValueListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.shippings.send.fullinfo.get taobao.shippings.send.fullinfo.get] || LogisticsOrderDetailGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.orders.get taobao.orders.get] || OrdersGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.trades.sold.get taobao.trades.sold.get] || TradesSoldGetRequest ||  ||
@@ -47,7 +47,7 @@ TOP公开的API名字与Top4Net的类名映射：
 || [http://wiki.open.taobao.com/index.php/taobao.taobaoke.listurl.get taobao.taobaoke.listurl.get] || TaobaokeListUrlGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.suites.get taobao.suites.get] || SuitesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.trade.memo.update taobao.trade.memo.update] || TradeMemoUpdateRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.get.v2 taobao.itemprops.get.v2] || ItemPropsGetRequest ||  || ItemPropListJsonParser/ItemPropListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.get.v2 taobao.itemprops.get.v2] || ItemPropsGetRequest ||ItemPropListJsonParser/ItemPropListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.trades.get taobao.trades.get] || TradesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.get taobao.item.get] || ItemGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.product.img.delete taobao.product.img.delete] || ProductImgDeleteRequest ||  ||
@@ -72,7 +72,7 @@ TOP公开的API名字与Top4Net的类名映射：
 || [http://wiki.open.taobao.com/index.php/taobao.traderate.add taobao.traderate.add] || TradeRateAddRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.propimg.upload taobao.item.propimg.upload] || ItemPropImgUploadRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.logisticcompanies.get taobao.logisticcompanies.get] || LogisticsCompaniesGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprop.list.get taobao.itemprop.list.get] || BuyerItemPropGetRequest ||  || ItemPropJsonParser/ItemPropXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprop.list.get taobao.itemprop.list.get] || BuyerItemPropGetRequest ||ItemPropJsonParser/ItemPropXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.get taobao.taobaoke.items.get] || TaobaokeItemsGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.postages.get taobao.postages.get] || PostagesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.activity.add taobao.sns.activity.add] || SnsActivityAddRequest ||  ||
@@ -86,7 +86,7 @@ TOP公开的API名字与Top4Net的类名映射：
 || [http://wiki.open.taobao.com/index.php/taobao.fullitems.get taobao.fullitems.get] || ItemsCustomGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.message.sysSend taobao.sns.message.sysSend] || SnsMessageSystemSendRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.items.instock.get taobao.items.instock.get] || ItemsInventoryGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.get.v2 taobao.itemcats.get.v2] || ItemCatsGetRequest ||  || ItemCatListJsonParser/ItemCatListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.get.v2 taobao.itemcats.get.v2] || ItemCatsGetRequest ||ItemCatListJsonParser/ItemCatListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.product.propimg.upload taobao.product.propimg.upload] || ProductPropImgUploadRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.users.get taobao.users.get] || UsersGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.refund.messages.get taobao.refund.messages.get] || RefundMessagesGetRequest ||  ||
