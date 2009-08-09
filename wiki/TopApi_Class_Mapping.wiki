@@ -1,6 +1,6 @@
 #labels API名称,请求类,解释类
-TOP公开的API名字与Top4Net的类名映射：
-|| *TopApiName* || *RequestClassName* || *ParserClassName* ||
+TOP公开的API名字与Top4Net的请求类，解释类的映射：
+|| *Top Api Name* || *Request Class Name* || *Parser Class Name* ||
 || [http://wiki.open.taobao.com/index.php/taobao.shop.get taobao.shop.get] || ShopGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.shop.update taobao.shop.update] || ShopUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.shopcats.list.get taobao.shopcats.list.get] || BuyerShopCatsGetRequest ||  ||
