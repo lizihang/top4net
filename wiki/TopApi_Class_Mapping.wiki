@@ -21,7 +21,7 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.trades.sold.get taobao.trades.sold.get] || TradesSoldGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.postage.update taobao.postage.update] || PostageUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.coins.sum taobao.sns.coins.sum] || SnsCoinsGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.img.upload taobao.product.img.upload] || ProductImgUploadRequest || ProductImgJsonParser<br>ProductXmlJsonParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.img.upload taobao.product.img.upload] || ProductImgUploadRequest || ProductImgJsonParser<br>ProductImgXmlParser||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.message.send taobao.sns.message.send] || SnsMessageSendRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.traderates.get taobao.traderates.get] || TradeRatesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.picture.get taobao.picture.get] || PictureGetRequest ||  ||
