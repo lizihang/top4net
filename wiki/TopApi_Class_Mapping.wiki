@@ -1,99 +1,99 @@
 #labels API名称,类名称
 TOP公开的API名字与Top4Net的类名映射：
-|| *TopApiName* || *ClassName* ||
-|| [http://wiki.open.taobao.com/index.php/taobao.shop.get taobao.shop.get] || ShopGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.shop.update taobao.shop.update] || ShopUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.shopcats.list.get taobao.shopcats.list.get] || BuyerShopCatsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.pictures.get taobao.sns.pictures.get] || SnsPicturesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.postage.get taobao.postage.get] || PostageGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.list.get taobao.itemprops.list.get] || BuyerItemPropsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.friends.get taobao.sns.friends.get] || SnsFriendsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.delivery.send taobao.delivery.send] || LogisticsOrderAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.search taobao.items.search] || ItemsSearchRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.update taobao.item.update] || ItemUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.update.showcase taobao.item.update.showcase] || ItemRecommendAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.get taobao.items.get] || ItemsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.fullskus.get taobao.fullskus.get] || SkusCustomGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itempropvalues.get taobao.itempropvalues.get] || ItemPropValuesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.shippings.send.fullinfo.get taobao.shippings.send.fullinfo.get] || LogisticsOrderDetailGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.orders.get taobao.orders.get] || OrdersGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trades.sold.get taobao.trades.sold.get] || TradesSoldGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.postage.update taobao.postage.update] || PostageUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.coins.sum taobao.sns.coins.sum] || SnsCoinsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.img.upload taobao.product.img.upload] || ProductImgUploadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.message.send taobao.sns.message.send] || SnsMessageSendRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.traderates.get taobao.traderates.get] || TradeRatesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.picture.get taobao.picture.get] || PictureGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.download taobao.items.download] || ItemsDownloadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.onsale.get taobao.items.onsale.get] || ItemsOnsaleGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.traderate.list.add taobao.traderate.list.add] || TradeRateBatchAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trade.fullinfo.get taobao.trade.fullinfo.get] || TradeDetailGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.pictures.getAlbums taobao.sns.pictures.getAlbums] || SnsAlbumsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.add taobao.item.add] || ItemAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.propimg.delete taobao.item.propimg.delete] || ItemPropImgDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.friends.areFriends taobao.sns.friends.areFriends] || SnsFriendsCheckRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.img.delete taobao.item.img.delete] || ItemImgDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.report.get taobao.taobaoke.report.get] || TaobaokeReportGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.refund.get taobao.refund.get] || RefundGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get] || ProductsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.coins.consume taobao.sns.coins.consume] || SnsCoinsExchangeRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.update.listing taobao.item.update.listing] || ItemEnlistRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trades.bought.get taobao.trades.bought.get] || TradesBoughtGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trade.memo.add taobao.trade.memo.add] || TradeMemoAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.delete taobao.item.delete] || ItemDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trade.get taobao.trade.get] || TradeGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.picture.upload taobao.picture.upload] || PictureUploadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.listurl.get taobao.taobaoke.listurl.get] || TaobaokeListUrlGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.suites.get taobao.suites.get] || SuitesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trade.memo.update taobao.trade.memo.update] || TradeMemoUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.get.v2 taobao.itemprops.get.v2] || ItemPropsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trades.get taobao.trades.get] || TradesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.get taobao.item.get] || ItemGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.img.delete taobao.product.img.delete] || ProductImgDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.picture.category.get taobao.picture.category.get] || PictureCategoryGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.picture.add taobao.sns.picture.add] || SnsPictureAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.postage.add taobao.postage.add] || PostageAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.propImg.delete taobao.product.propImg.delete] || ProductPropImgDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.update.delisting taobao.item.update.delisting] || ItemDelistRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.refunds.apply.get taobao.refunds.apply.get] || RefundsAppliedGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.img.upload taobao.item.img.upload] || ItemImgUploadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get] || UserGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.get taobao.sellercats.list.get] || SellerItemCatsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add] || ProductAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.convert taobao.taobaoke.items.convert] || TaobaokeItemsConvertRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.shops.convert taobao.taobaoke.shops.convert] || TaobaokeShopsConvertRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.update taobao.itemextra.update] || ItemExtraUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.trade.close taobao.trade.close] || TradeCloseRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.picture.delete taobao.picture.delete] || PictureDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.update taobao.sellercats.list.update] || SellerItemCatsUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.add taobao.sellercats.list.add] || SellerItemCatsAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.update.revokeShowcase taobao.item.update.revokeShowcase] || ItemRecommendDeleteRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.traderate.add taobao.traderate.add] || TradeRateAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.propimg.upload taobao.item.propimg.upload] || ItemPropImgUploadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.logisticcompanies.get taobao.logisticcompanies.get] || LogisticsCompaniesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemprop.list.get taobao.itemprop.list.get] || BuyerItemPropGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.get taobao.taobaoke.items.get] || TaobaokeItemsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.postages.get taobao.postages.get] || PostagesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.activity.add taobao.sns.activity.add] || SnsActivityAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.skus.get taobao.item.skus.get] || ItemSkusGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.get taobao.item.sku.get] || ItemSkuGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.refunds.receive.get taobao.refunds.receive.get] || RefundsReceivedGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.add taobao.itemextra.add] || ItemExtraAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get] || ProductGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.areas.get taobao.areas.get] || AreasGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.products.search taobao.products.search] || ProductsSearchRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.fullitems.get taobao.fullitems.get] || ItemsCustomGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.message.sysSend taobao.sns.message.sysSend] || SnsMessageSystemSendRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.instock.get taobao.items.instock.get] || ItemsInventoryGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.get.v2 taobao.itemcats.get.v2] || ItemCatsGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.propimg.upload taobao.product.propimg.upload] || ProductPropImgUploadRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.users.get taobao.users.get] || UsersGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.refund.messages.get taobao.refund.messages.get] || RefundMessagesGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.update taobao.item.sku.update] || ItemSkuUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.update taobao.product.update] || ProductUpdateRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.picture.setUsed taobao.sns.picture.setUsed] || SnsPictureUseRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.shippings.send.get taobao.shippings.send.get] || LogisticsOrderGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.add taobao.item.sku.add] || ItemSkuAddRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.get taobao.itemextra.get] || ItemExtraGetRequest ||
-|| [http://wiki.open.taobao.com/index.php/taobao.sns.user.get taobao.sns.user.get] || SnsUserGetRequest ||
+|| *TopApiName* || *RequestClassName* || *ParserClassName* ||
+|| [http://wiki.open.taobao.com/index.php/taobao.shop.get taobao.shop.get] || ShopGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.shop.update taobao.shop.update] || ShopUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.shopcats.list.get taobao.shopcats.list.get] || BuyerShopCatsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.pictures.get taobao.sns.pictures.get] || SnsPicturesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.postage.get taobao.postage.get] || PostageGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.list.get taobao.itemprops.list.get] || BuyerItemPropsGetRequest ||  || ItemPropListJsonParser/ItemPropListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.friends.get taobao.sns.friends.get] || SnsFriendsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.delivery.send taobao.delivery.send] || LogisticsOrderAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.search taobao.items.search] || ItemsSearchRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.update taobao.item.update] || ItemUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||  || ItemCatListJsonParser/ItemCatListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.update.showcase taobao.item.update.showcase] || ItemRecommendAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.get taobao.items.get] || ItemsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.fullskus.get taobao.fullskus.get] || SkusCustomGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itempropvalues.get taobao.itempropvalues.get] || ItemPropValuesGetRequest ||  || PropValueListJsonParser/PropValueListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.shippings.send.fullinfo.get taobao.shippings.send.fullinfo.get] || LogisticsOrderDetailGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.orders.get taobao.orders.get] || OrdersGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trades.sold.get taobao.trades.sold.get] || TradesSoldGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.postage.update taobao.postage.update] || PostageUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.coins.sum taobao.sns.coins.sum] || SnsCoinsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.img.upload taobao.product.img.upload] || ProductImgUploadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.message.send taobao.sns.message.send] || SnsMessageSendRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.traderates.get taobao.traderates.get] || TradeRatesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.picture.get taobao.picture.get] || PictureGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.download taobao.items.download] || ItemsDownloadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.onsale.get taobao.items.onsale.get] || ItemsOnsaleGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.traderate.list.add taobao.traderate.list.add] || TradeRateBatchAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trade.fullinfo.get taobao.trade.fullinfo.get] || TradeDetailGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.pictures.getAlbums taobao.sns.pictures.getAlbums] || SnsAlbumsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.add taobao.item.add] || ItemAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.propimg.delete taobao.item.propimg.delete] || ItemPropImgDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.friends.areFriends taobao.sns.friends.areFriends] || SnsFriendsCheckRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.img.delete taobao.item.img.delete] || ItemImgDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.report.get taobao.taobaoke.report.get] || TaobaokeReportGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.refund.get taobao.refund.get] || RefundGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get] || ProductsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.coins.consume taobao.sns.coins.consume] || SnsCoinsExchangeRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.update.listing taobao.item.update.listing] || ItemEnlistRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trades.bought.get taobao.trades.bought.get] || TradesBoughtGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trade.memo.add taobao.trade.memo.add] || TradeMemoAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.delete taobao.item.delete] || ItemDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trade.get taobao.trade.get] || TradeGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.picture.upload taobao.picture.upload] || PictureUploadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.listurl.get taobao.taobaoke.listurl.get] || TaobaokeListUrlGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.suites.get taobao.suites.get] || SuitesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trade.memo.update taobao.trade.memo.update] || TradeMemoUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprops.get.v2 taobao.itemprops.get.v2] || ItemPropsGetRequest ||  || ItemPropListJsonParser/ItemPropListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trades.get taobao.trades.get] || TradesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.get taobao.item.get] || ItemGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.img.delete taobao.product.img.delete] || ProductImgDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.picture.category.get taobao.picture.category.get] || PictureCategoryGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.picture.add taobao.sns.picture.add] || SnsPictureAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.postage.add taobao.postage.add] || PostageAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.propImg.delete taobao.product.propImg.delete] || ProductPropImgDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.update.delisting taobao.item.update.delisting] || ItemDelistRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.refunds.apply.get taobao.refunds.apply.get] || RefundsAppliedGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.img.upload taobao.item.img.upload] || ItemImgUploadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get] || UserGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.get taobao.sellercats.list.get] || SellerItemCatsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add] || ProductAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.convert taobao.taobaoke.items.convert] || TaobaokeItemsConvertRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.shops.convert taobao.taobaoke.shops.convert] || TaobaokeShopsConvertRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.update taobao.itemextra.update] || ItemExtraUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.trade.close taobao.trade.close] || TradeCloseRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.picture.delete taobao.picture.delete] || PictureDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.update taobao.sellercats.list.update] || SellerItemCatsUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.add taobao.sellercats.list.add] || SellerItemCatsAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.update.revokeShowcase taobao.item.update.revokeShowcase] || ItemRecommendDeleteRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.traderate.add taobao.traderate.add] || TradeRateAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.propimg.upload taobao.item.propimg.upload] || ItemPropImgUploadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.logisticcompanies.get taobao.logisticcompanies.get] || LogisticsCompaniesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemprop.list.get taobao.itemprop.list.get] || BuyerItemPropGetRequest ||  || ItemPropJsonParser/ItemPropXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.get taobao.taobaoke.items.get] || TaobaokeItemsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.postages.get taobao.postages.get] || PostagesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.activity.add taobao.sns.activity.add] || SnsActivityAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.skus.get taobao.item.skus.get] || ItemSkusGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.get taobao.item.sku.get] || ItemSkuGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.refunds.receive.get taobao.refunds.receive.get] || RefundsReceivedGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.add taobao.itemextra.add] || ItemExtraAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get] || ProductGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.areas.get taobao.areas.get] || AreasGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.products.search taobao.products.search] || ProductsSearchRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.fullitems.get taobao.fullitems.get] || ItemsCustomGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.message.sysSend taobao.sns.message.sysSend] || SnsMessageSystemSendRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.instock.get taobao.items.instock.get] || ItemsInventoryGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemcats.get.v2 taobao.itemcats.get.v2] || ItemCatsGetRequest ||  || ItemCatListJsonParser/ItemCatListXmlParser ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.propimg.upload taobao.product.propimg.upload] || ProductPropImgUploadRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.users.get taobao.users.get] || UsersGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.refund.messages.get taobao.refund.messages.get] || RefundMessagesGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.update taobao.item.sku.update] || ItemSkuUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.update taobao.product.update] || ProductUpdateRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.picture.setUsed taobao.sns.picture.setUsed] || SnsPictureUseRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.shippings.send.get taobao.shippings.send.get] || LogisticsOrderGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.item.sku.add taobao.item.sku.add] || ItemSkuAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.itemextra.get taobao.itemextra.get] || ItemExtraGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.sns.user.get taobao.sns.user.get] || SnsUserGetRequest ||  ||
