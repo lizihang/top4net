@@ -36,7 +36,7 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.item.img.delete taobao.item.img.delete] || ItemImgDeleteRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.taobaoke.report.get taobao.taobaoke.report.get] || TaobaokeReportGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.refund.get taobao.refund.get] || RefundGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get] || ProductsGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.products.get taobao.products.get] || ProductsGetRequest || ProductListJsonParser/ProductListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.coins.consume taobao.sns.coins.consume] || SnsCoinsExchangeRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update.listing taobao.item.update.listing] || ItemEnlistRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.trades.bought.get taobao.trades.bought.get] || TradesBoughtGetRequest ||  ||
@@ -58,9 +58,9 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.item.update.delisting taobao.item.update.delisting] || ItemDelistRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.refunds.apply.get taobao.refunds.apply.get] || RefundsAppliedGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.img.upload taobao.item.img.upload] || ItemImgUploadRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get] || UserGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.user.get taobao.user.get] || UserGetRequest || UserJsonParser<br>UserXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.sellercats.list.get taobao.sellercats.list.get] || SellerItemCatsGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add] || ProductAddRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.add taobao.product.add] || ProductAddRequest || ProductJsonParser<br>ProductXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.taobaoke.items.convert taobao.taobaoke.items.convert] || TaobaokeItemsConvertRequest || TaobaokeItemListJsonParser<br>TaobaokeItemListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.taobaoke.shops.convert taobao.taobaoke.shops.convert] || TaobaokeShopsConvertRequest || TaobaokeShopListJsonParser<br>TaobaokeShopListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemextra.update taobao.itemextra.update] || ItemExtraUpdateRequest ||  ||
@@ -80,15 +80,15 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.item.sku.get taobao.item.sku.get] || ItemSkuGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.refunds.receive.get taobao.refunds.receive.get] || RefundsReceivedGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemextra.add taobao.itemextra.add] || ItemExtraAddRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get] || ProductGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.product.get taobao.product.get] || ProductGetRequest || ProductJsonParser<br>ProductXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.areas.get taobao.areas.get] || AreasGetRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.products.search taobao.products.search] || ProductsSearchRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.products.search taobao.products.search] || ProductsSearchRequest || ProductListJsonParser<br>ProductListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.fullitems.get taobao.fullitems.get] || ItemsCustomGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.message.sysSend taobao.sns.message.sysSend] || SnsMessageSystemSendRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.items.instock.get taobao.items.instock.get] || ItemsInventoryGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemcats.get.v2 taobao.itemcats.get.v2] || ItemCatsGetRequest ||ItemCatListJsonParser<br>ItemCatListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.product.propimg.upload taobao.product.propimg.upload] || ProductPropImgUploadRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.users.get taobao.users.get] || UsersGetRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.users.get taobao.users.get] || UsersGetRequest || UserListJsonParser<br>UserListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.refund.messages.get taobao.refund.messages.get] || RefundMessagesGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.sku.update taobao.item.sku.update] || ItemSkuUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.product.update taobao.product.update] || ProductUpdateRequest ||  ||
