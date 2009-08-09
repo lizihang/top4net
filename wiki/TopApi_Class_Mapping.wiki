@@ -9,7 +9,7 @@ TOP公开的API名字与Top4Net的请求类，解释类的映射：
 || [http://wiki.open.taobao.com/index.php/taobao.itemprops.list.get taobao.itemprops.list.get] || BuyerItemPropsGetRequest ||ItemPropListJsonParser<br>ItemPropListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.sns.friends.get taobao.sns.friends.get] || SnsFriendsGetRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.delivery.send taobao.delivery.send] || LogisticsOrderAddRequest ||  ||
-|| [http://wiki.open.taobao.com/index.php/taobao.items.search taobao.items.search] || ItemsSearchRequest ||  ||
+|| [http://wiki.open.taobao.com/index.php/taobao.items.search taobao.items.search] || ItemsSearchRequest || ItemSearchListJsonParser<br>ItemSearchListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update taobao.item.update] || ItemUpdateRequest ||  ||
 || [http://wiki.open.taobao.com/index.php/taobao.itemcats.list.get taobao.itemcats.list.get] || BuyerItemCatsGetRequest ||ItemCatListJsonParser<br>ItemCatListXmlParser ||
 || [http://wiki.open.taobao.com/index.php/taobao.item.update.showcase taobao.item.update.showcase] || ItemRecommendAddRequest ||  ||
