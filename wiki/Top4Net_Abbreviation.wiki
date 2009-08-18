@@ -11,6 +11,8 @@
 || uid || User Id || 用户编号 ||
 || vid || Value Id || 属性值编号 ||
 
+注：商品编号目前统一用：product_id
+
 ==其它约定==
  * Id: 表示编号
  * No: 表示账号（如支付宝账号：alipay_no）
