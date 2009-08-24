@@ -38,3 +38,8 @@
 ==Top4Net v0.60==
  # 强类型化部分数字、日期，等参数
  # 支持所有商品相关的API
+
+==Top4Net v0.65==
+ # 使用可空对象避免数值类型的默认值问题
+ # 支持所有产品相关的API
+ # 添加TopJsonRestClient和TopXmlRestClient两个工具类
