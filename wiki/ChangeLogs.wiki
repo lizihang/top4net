@@ -43,3 +43,7 @@
  # 使用可空对象避免数值类型的默认值问题
  # 支持所有产品相关的API
  # 添加TopJsonRestClient和TopXmlRestClient两个工具类
+
+==Top4Net v0.70==
+ # 支持所有交易相关的API
+ # 支持所有退款相关的API
