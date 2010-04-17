@@ -75,3 +75,17 @@
 ==Top4Net v1.0==
  # 修正全部字段映射错误
  # 增加获取B商家授权类目API
+
+==Top4Net v2.0.0==
+ # ResponseList改名为PageList
+ # TopXmlRestClient中的所有方法名称已经改为和API名称一致
+ # 数据结构中的字段已经改为和官方公布的数据结构一致
+ # 支持自用型应用不需要传SessionKey参数
+
+==Top4Net v2.0.1==
+ # 缓存序列化器，提升了接近一倍的解释速度
+ # 修正部分字段的数据类型
+
+==Top4Net v2.0.2==
+ # 添加DynamicTopRequest来支持动态请求
+ # 过滤XML返回中的非法字符
