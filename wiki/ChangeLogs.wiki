@@ -89,3 +89,6 @@
 ==Top4Net v2.0.2==
  # 添加DynamicTopRequest来支持动态请求
  # 过滤XML返回中的非法字符
+
+==Top4Net v2.1.0==
+ # 同步到最新的TOPAPI（num_iid等）
