@@ -96,3 +96,7 @@
 ==Top4Net v2.1.1==
  # 缓存反序列化器，解决内存溢出问题
  # 增加taobao.delivery.cod.send
+
+==Top4Net v2.1.2==
+ # 同步API最新改动
+ # 添加收藏夹API
